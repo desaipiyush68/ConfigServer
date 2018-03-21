@@ -12,10 +12,7 @@ spring:
   data:
     mongodb:
       database: flights
-      host: 192.168.99.100
-      port: 2707
-      uri: mongodb://192.168.99.100
-
+      host: localhost
 
 eureka:
   client:

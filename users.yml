@@ -1,5 +1,5 @@
 server:
-  port: 50001
+  port: 50006
 spring:
   rabbitmq:
     host: localhost
@@ -11,7 +11,7 @@ spring:
       enabled: false
   data:
     mongodb:
-      database: planes
+      database: users
       host: localhost
        
 eureka:
