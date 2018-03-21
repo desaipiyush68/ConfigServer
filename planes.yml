@@ -13,6 +13,7 @@ spring:
     mongodb:
       database: planes
       host: localhost
+
        
 eureka:
   client:
