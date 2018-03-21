@@ -12,6 +12,7 @@ spring:
   data:
     mongodb:
       database: flights
+      host: localhost
 
 eureka:
   client:
