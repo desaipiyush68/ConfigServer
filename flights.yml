@@ -12,7 +12,7 @@ spring:
   data:
     mongodb:
       database: flights
-      host: localhost
+      host: 192.168.99.100
 
 eureka:
   client:
