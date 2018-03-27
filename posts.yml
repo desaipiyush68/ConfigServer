@@ -27,7 +27,7 @@ users:
   service: USERS
   path: /api/users
   
-bookings:
+categories:
   service: CATEGORIES
-  path:/api/categories
+  path: /api/categories
 
