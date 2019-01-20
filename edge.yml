@@ -68,13 +68,4 @@ zuul:
   host:
     connectTimeoutMillis: 1000000
     socketTimeoutMillis: 1000000
-#proxy:
-#  auth:
-#    routes:
-#      planes: oauth2
-#      flighst: oauth2
-#      fares: oauth2
-#      bookings: oauth2
-#      payments: oauth2
-#      passengers: oauth2
-#      ecommerce: oauth2
+
