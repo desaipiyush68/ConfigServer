@@ -57,10 +57,14 @@ zuul:
       path: /api/v1/users/**
       sensitiveHeaders: 
       serviceId: users
-    categories:
-      path: /api/v1/categories/**
+    tasks:
+      path: /api/v1/tasks/**
       sensitiveHeaders: 
-      serviceId: categories
+      serviceId: tasks
+    projects:
+      path: /api/v1/projects/**
+      sensitiveHeaders:
+      serviceId: projects
   host:
     connectTimeoutMillis: 1000000
     socketTimeoutMillis: 1000000
