@@ -45,7 +45,6 @@ amqp:
         task: tasks_created
       updated:
         task: tasks_updated
-
     key:
       created:
         request: tasks_created

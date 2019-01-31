@@ -45,7 +45,6 @@ amqp:
         user: users_created
       updated:
         user: users_updated
-
     key:
       created:
         request: users_created
