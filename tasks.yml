@@ -37,3 +37,31 @@ management:
     cors:
       allowed-origins: "*"
       allowed-methods: GET,POST,PUT,DELETE
+      
+amqp:
+  tasks:
+    exchange:
+      created:
+        team: tasks_created
+      updated:
+        team: tasks_updated
+
+    key:
+      created:
+        request: tasks_created
+      updated:
+        request: tasks_updated
+
+  
+  
+projects:
+  service: PROJECTS
+  
+tasks:
+  service: TASKS 
+
+users:
+  service: USERS
+  
+events:
+  service: EVENTS  
