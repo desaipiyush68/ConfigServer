@@ -42,26 +42,30 @@ amqp:
   tasks:
     exchange:
       created:
-        team: tasks_created
+        task: tasks_created
       updated:
-        team: tasks_updated
+        task: tasks_updated
 
     key:
       created:
         request: tasks_created
       updated:
         request: tasks_updated
-
+        
+  events:
+    queue:
+      created:
+        request: event_request_queue
+    exchange:
+      created: events_created
+      
+    key:
+      created:
+        request: event_created 
   
   
 projects:
   service: PROJECTS
-  
-tasks:
-  service: TASKS 
-
-users:
-  service: USERS
   
 events:
   service: EVENTS  
